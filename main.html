@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trattoria Da Peppone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'EB Garamond', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-red-500">
+
+  <!-- HERO a tutto schermo -->
+  <section class="relative h-screen w-full">
+    <!-- Menu/Instagram link agli angoli -->
+    <a href="#menu" class="absolute top-6 left-6 text-white text-lg font-semibold z-40 drop-shadow-lg">Menu</a>
+    <a href="#instagram" class="absolute top-6 right-6 text-white text-lg font-semibold z-40 drop-shadow-lg">Instagram</a>
+
+    <!-- Immagine Hero -->
+    <img src="hero.jpg" alt="Interno trattoria" class="w-full h-full object-cover">
+
+    <!-- Logo al centro -->
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-center z-30">
+      <img src="logo_bianco_Intero2.png" alt="Logo Da Peppone" class="w-2/3 max-w-xs sm:max-w-md lg:max-w-lg drop-shadow-xl">
+    </div>
+  </section>
+
+  <!-- BANNER (non fisso) -->
+  <header class="sticky top-0 z-50 bg-white shadow-md flex justify-between items-center px-6 py-4 text-sm font-semibold">
+    <a href="#menu">Menu</a>
+    <img src="ritaglio.png" alt="Logo Da Peppone" class="h-8 sm:h-10" />
+    <a href="#instagram">Instagram</a>
+  </header>
+
+
+  <!-- CONTENUTO PRINCIPALE -->
+  <main class="space-y-20 pt-10">
+
+    <!-- Sezione 1 -->
+    <section id="menu" class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-10 items-center">
+      <img src="asparagi.jpg" alt="Asparagi" class="md:col-span-2 w-full rounded">
+      <div class="md:col-span-1">
+        <p>
+          Da Peppone conosciamo personalmente chi coltiva i nostri ortaggi e chi ci fornisce carne e verdura.
+          Lavoriamo a stretto contatto con agricoltori e fornitori locali per selezionare solo i migliori ingredienti della regione della Tuscia.
+          Il nostro obiettivo è valorizzare sia la qualità e la varietà di questi prodotti, sia le persone straordinarie che ci sono dietro.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sezione 2 -->
+    <section class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-10 items-center">
+      <div class="md:col-span-1">
+        <p>
+          Testo che parla delle persone che lavorano da Peppone, dal passaggio che c’è stato tra i vecchi proprietari e i nuovi, e il rapporto tra loro,
+          che racconta molto di come sono connesse le persone di Villa San Giovanni, e come sono connessi con la loro terra.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <img src="staff.jpg" alt="Staff" class="md:col-span-2 w-full rounded">
+    </section>
+
+    <!-- Sezione 3 -->
+    <section class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-10 items-center">
+      <img src="piatto.jpg" alt="Piatto tradizionale" class="md:col-span-2 w-full rounded">
+      <div class="md:col-span-1">
+        <p>
+          Testo che racconta la cucina di questa trattoria, delle ricette tramandate e delle evoluzioni rispetto a prima.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sezione 4 -->
+    <section class="max-w-5xl mx-auto px-6 text-center space-y-6">
+      <p>
+        Testo sul territorio? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <img src="vigna.jpg" alt="Vigneti" class="w-full rounded">
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-20 border-t border-red-500 py-10 text-center text-sm space-y-4 px-6">
+    <div class="border-t-4 border-dotted border-red-400 w-full max-w-6xl mx-auto"></div>
+    <p>
+      Sede legale e amministrativa: Le Castellane Srl Società Agricola - Via della Marmorata 11, Cerbara 23101 - tel. 327 5267669<br>
+      Cascina Rossa 1, Vitorchiano (Mb) 20009
+    </p>
+    <div class="flex justify-center gap-6 text-xs">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookie Policy</a>
+      <a href="#">Termini e Condizioni</a>
+      <a href="mailto:prenotazioni@lecastellane.com">prenotazioni@lecastellane.com</a>
+      <span>@castella_rossa</span>
+    </div>
+  </footer>
+
+</body>
+</html>
